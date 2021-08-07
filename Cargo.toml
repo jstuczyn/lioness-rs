@@ -1,0 +1,21 @@
+[package]
+name = "lioness-rs"
+version = "0.1.0"
+authors = ["jstuczyn <jedrzej.stuczynski@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cipher = "0.3.0"
+crypto-mac = "0.11.1"
+digest = "0.10.0-pre.3"
+generic-array = "0.14"
+
+[dev-dependencies]
+blake3 = { version = "1.0.0", features = ["traits-preview"] }
+chacha20 = "0.7.2"
+generic-array = { version = "0.14", features = ["more_lengths"] }
+
+[features]
+block-cipher = []
