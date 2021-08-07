@@ -2,6 +2,7 @@ This crates provides a generic implementation of Lioness cipher as described in 
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)](https://opensource.org/licenses/Apache-2.0)
 [![Build Status](https://img.shields.io/github/workflow/status/jstuczyn/lioness-rs/Continuous%20integration/master?style=for-the-badge&logo=github-actions)](https://github.com/jstuczyn/lioness-rs/actions?query=branch%3Amaster)
+[![crate](https://img.shields.io/crates/v/lioness-rs.svg?style=for-the-badge)](https://crates.io/crates/lioness-rs)
 
 Warning
 -------
